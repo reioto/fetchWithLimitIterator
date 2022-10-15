@@ -1,0 +1,32 @@
+{
+    "name": "reioto/fetch-with-limit-iterator",
+    "type": "library",
+    "require-dev": {
+        "phpcompatibility/php-compatibility": "^9.3",
+        "phpunit/phpunit": "^9.5",
+        "phpstan/phpstan": "^1.8",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
+    },
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "reioto",
+            "email": "reioto77@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FetchWithLimitIterator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FetchWithLimitIterator\\": "test/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
