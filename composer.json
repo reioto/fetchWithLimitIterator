@@ -5,7 +5,11 @@
         "phpcompatibility/php-compatibility": "^9.3",
         "phpunit/phpunit": "^9.5",
         "phpstan/phpstan": "^1.8",
-        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2"
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+        "phpspec/prophecy": "^1.15",
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpstan/extension-installer": "^1.1",
+        "jangregor/phpstan-prophecy": "^1.0"
     },
     "license": "Apache License 2.0",
     "authors": [
@@ -26,7 +30,8 @@
     },
     "config": {
         "allow-plugins": {
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "phpstan/extension-installer": true
         }
     }
 }
